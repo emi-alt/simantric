@@ -1,0 +1,20 @@
+#hre{
+    background: linear-gradient(to bottom-right, teal, lightpink);
+    border-width: 2px;
+    border-color: bisque;
+}
+#d2{
+    margin-trim: 80px;
+    animation-name: chl;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    position: relative;
+}
+@keyframes chl{
+    0%   {background-color:rgba(215, 115, 115, 0.551); left:0px; top:0px;}
+    25%  {background-color:rgb(208, 145, 62, 0.551); left:200px; top:0px;}
+    50%  {background-color:rgb(102, 102, 195, 0.551); left:200px; top:200px;}
+    75%  {background-color:rgb(88, 164, 88, 0.551); left:0px; top:200px;}
+    100% {background-color:rgb(215, 115, 115, 0.551); left:0px; top:0px;}
+}
